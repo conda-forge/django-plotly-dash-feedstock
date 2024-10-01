@@ -1,5 +1,5 @@
 {% set name = "django-plotly-dash" %}
-{% set version = "2.3.1" %}
+{% set version = "2.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-plotly-dash-{{ version }}.tar.gz
-  sha256: 715a827a5d02d1d6e646a9ea415bd27c3ba06c45f1c300f48f89c0a6301dc551
+  sha256: 6d4985046b22d4d6c5ab963f182bfeb909cbc87714ca9a5c162e24a374e2f39e
 
 build:
   noarch: python
