@@ -1,5 +1,5 @@
 {% set name = "django-plotly-dash" %}
-{% set version = "2.4.2" %}
+{% set version = "2.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-plotly-dash-{{ version }}.tar.gz
-  sha256: 2b05251e4cceb12677cd20c55c9e57dc6f2c568db93bb71ca38efa37fd07df88
+  sha256: f35b4744beb61717ee2206b4392e2f3a935c582eb0ac7d22046d970450b765b8
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - plotly
-    - dash >=2.0,<2.10
+    - dash >=2.0,<3.0
     - dpd_components
     - dash-bootstrap-components
     - dash-core-components
