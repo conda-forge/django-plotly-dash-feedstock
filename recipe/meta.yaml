@@ -24,7 +24,7 @@ requirements:
     - plotly
     - dash >=2.0,<3.0
     - dpd_components
-    - dash-bootstrap-components
+    - dash-bootstrap-components <2.0.0
     - dash-core-components
     - dash-html-components
     - dash-table
